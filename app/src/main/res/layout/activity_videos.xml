@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Videos"
+    android:background="@color/color1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/videos_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/videos_toolbar_back"
+                android:src="@drawable/ic_back"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lottery_live_draw"
+                android:textAlignment="center"
+                android:id="@+id/latest_results_toolbar_title"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/lato_bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videos_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/lato_bold"
+        android:background="@color/color3"
+        android:textAlignment="center"
+        android:text="@string/today_1_pm_live"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="18sp" />
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:videoId="S0Q4gqBUs7c"
+        android:fitsSystemWindows="true"
+        app:enableAutomaticInitialization="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="3"
+        android:id="@+id/videos_btn_layout">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="@color/white">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/videos_1_pm_click"
+                android:background="@android:color/transparent"
+                android:text="1 PM Live"
+                android:textAllCaps="false"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/color3"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="@color/white">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/videos_6_pm_click"
+                android:background="@color/white"
+                android:text="6 PM Live"
+                android:textAllCaps="false"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/color3"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="@color/white">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/videos_8_pm_click"
+                android:background="@color/white"
+                android:text="8 PM Live"
+                android:textAllCaps="false"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/color3"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

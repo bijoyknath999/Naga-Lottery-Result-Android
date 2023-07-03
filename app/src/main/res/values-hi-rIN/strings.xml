@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Naga Lottery Result</string>
+    <string name="modal_desc">नागालैंड लॉटरी रिजल्ट ऐप का उपयोग करने के लिए आपका धन्यवाद। कृपया हमें अपनी रेटिंग देकर हमारा समर्थन करें।</string>
+    <string name="home_app_name">नागालैंड लॉटरी रिजल्ट</string>
+    <string name="home_todays_date">आज के परिणाम : </string>
+    <string name="morning_1_pm_result_not_published_yet">सुबह 1 बजे का परिणाम जारी नहीं हुआ है</string>
+    <string name="evening_6_pm_result_not_published_yet">शाम 6 बजे का परिणाम जारी नहीं हुआ है</string>
+    <string name="night_8_pm_result_not_published_yet">रात 8 बजे का परिणाम जारी नहीं हुआ है</string>
+    <string name="old_results">पुराने परिणाम</string>
+    <string name="all_old_results">सभी पुराने परिणाम</string>
+    <string name="live_draw_video">लाइव ड्रा: वीडियो</string>
+    <string name="download">डाउनलोड</string>
+    <string name="select_date">तारीख़ चुनें</string>
+    <string name="result_date">परिणाम तारीख : </string>
+    <string name="lottery_live_draw">लाटरी लाइव ड्रा</string>
+    <string name="today_1_pm_live">आज दोपहर 1 बजे लाइव</string>
+    <string name="rate_us">रेट करें</string>
+    <string name="share">शेयर</string>
+    <string name="quit">बाहर निकलें</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="home_1_pm_txt">सुबह 1 बजे का रिजल्ट प्रकाशित हो गया है</string>
+    <string name="home_latest_1pm_results">सुबह 1 बजे का रिजल्ट</string>
+    <string name="home_6_pm_txt">शाम 6 बजे का रिजल्ट प्रकाशित हो गया है</string>
+    <string name="home_latest_results_6pm">शाम 6 बजे का रिजल्ट</string>
+    <string name="home_8_pm_txt">रात 8 बजे का रिजल्ट प्रकाशित हो गया है</string>
+    <string name="home_latest_results_8pm">रात 8 बजे का रिजल्ट</string>
+    <string name="today_1pm">सुबह 1 बजे लाइव</string>
+    <string name="today_6pm">शाम 6 बजे लाइव</string>
+    <string name="today_8pm">रात 8 बजे लाइव</string>
+    <string name="old_1pm_results">पुराना 1 PM परिणाम (</string>
+    <string name="old_6pm_results">पुराना 6 PM परिणाम (</string>
+    <string name="old_8pm_results">पुराना 8 PM परिणाम (</string>
+    <string name="not_publish">अभी तक प्रकाशित नहीं किया गया...</string>
+    <string name="okay">ठीक है</string>
+    <string name="reopen">कृपया एप्लिकेशन फिर से खोलें...</string>
+    <string name="internet_error">कृपया अपनी इंटरनेट की जांच करें...</string>
+    <string name="close">बंद करें</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="update_message">कृपया ऐप को अपडेट करें</string>
+    <string name="update">अपडेट करें</string>
+    <string name="website">वेबसाइट</string>
+    <string name="refresh_successful">रीफ़्रेश सफल हुई है</string>
+</resources>

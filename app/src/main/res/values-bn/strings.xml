@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Naga Lottery Result</string>
+    <string name="modal_desc">নাগাল্যান্ড লটারি রেজাল্ট অ্যাপ ব্যবহার করার জন্য আপনাকে ধন্যবাদ। আমাদের সমর্থন করতে হলে দয়া করে আপনার রেটিং দিন।</string>
+    <string name="home_app_name">নাগাল্যান্ড লটারি রেজাল্ট</string>
+    <string name="home_todays_date">আজকের ফলাফল : </string>
+    <string name="morning_1_pm_result_not_published_yet">সকাল ১টা এর ফলাফল প্রকাশ হয়নি</string>
+    <string name="evening_6_pm_result_not_published_yet">সন্ধ্যা ৬টা এর ফলাফল প্রকাশ হয়নি</string>
+    <string name="night_8_pm_result_not_published_yet">রাত ৮টা এর ফলাফল প্রকাশ হয়নি</string>
+    <string name="old_results">পুরাতন ফলাফল</string>
+    <string name="all_old_results">সমস্ত পুরাতন ফলাফল</string>
+    <string name="live_draw_video">লাইভ ড্র: ভিডিও</string>
+    <string name="download">ডাউনলোড</string>
+    <string name="select_date">তারিখ নির্বাচন করুন</string>
+    <string name="result_date">ফলাফল তারিখ : </string>
+    <string name="lottery_live_draw">লটারি লাইভ ড্র</string>
+    <string name="today_1_pm_live">আজ দুপুর ১টা লাইভ</string>
+    <string name="rate_us">রেট করুন</string>
+    <string name="share">শেয়ার</string>
+    <string name="quit">বাহির</string>
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    <string name="home_1_pm_txt">সকাল ১ টার রেজাল্ট প্রকাশিত হয়েছে</string>
+    <string name="home_latest_1pm_results">সকাল ১ টার রেজাল্ট</string>
+    <string name="home_6_pm_txt">সন্ধ্যা ৬ টার রেজাল্ট প্রকাশিত হয়েছে</string>
+    <string name="home_latest_results_6pm">সন্ধ্যা ৬ টার রেজাল্ট </string>
+    <string name="home_8_pm_txt">রাত ৮ টার রেজাল্ট প্রকাশিত হয়েছে</string>
+    <string name="home_latest_results_8pm">রাত ৮ টার রেজাল্ট</string>
+    <string name="today_1pm">সকাল ১ টা লাইভ</string>
+    <string name="today_6pm">সন্ধ্যা ৬ টা লাইভ</string>
+    <string name="today_8pm">রাত ৮ টা লাইভ</string>
+    <string name="old_1pm_results">পুরানো 1 PM রেজাল্ট (</string>
+    <string name="old_6pm_results">পুরানো 6 PM ফলাফল (</string>
+    <string name="old_8pm_results">পুরানো 8 PM ফলাফল (</string>
+    <string name="not_publish">এখনও প্রকাশিত হয়নি...</string>
+    <string name="okay">ঠিক আছে</string>
+    <string name="reopen">অনুগ্রহ করে আবার অ্যাপটি খোলুন...</string>
+    <string name="internet_error">দয়া করে আপনার ইন্টারনেট চেক করুন...</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="retry">পুনরায় চেষ্টা করুন</string>
+    <string name="update_message">দয়া করে অ্যাপটি আপডেট করুন</string>
+    <string name="update">আপডেট করুন</string>
+    <string name="website">ওয়েবসাইট</string>
+    <string name="refresh_successful">সফলভাবে রিফ্রেশ হয়েছে</string>
+</resources>

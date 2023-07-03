@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Naga Lottery Result</string>
+    <string name="modal_desc">Thank you for using Nagaland Lottery Result App. Please support us by giving your rating.</string>
+    <string name="home_app_name">Nagaland Lottery Result</string>
+    <string name="home_todays_date">Today\'s Results : </string>
+    <string name="morning_1_pm_result_not_published_yet">Morning 1 PM Result not published</string>
+    <string name="evening_6_pm_result_not_published_yet">Evening 6 PM Result not published</string>
+    <string name="night_8_pm_result_not_published_yet">Night 8 PM Result not published</string>
+    <string name="old_results">Old Results</string>
+    <string name="all_old_results">All Old Results</string>
+    <string name="live_draw_video">Live Draw : Video</string>
+    <string name="download">Download</string>
+    <string name="select_date">Select Date</string>
+    <string name="result_date">Result Date : </string>
+    <string name="lottery_live_draw">Lottery Live Draw</string>
+    <string name="today_1_pm_live">1 PM Live</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="quit">Quit</string>
+    <string name="select_language">Select Language</string>
+    <string name="home_1_pm_txt">Morning 1 PM Result Published</string>
+    <string name="home_latest_1pm_results">Morning 1 PM Results</string>
+    <string name="home_6_pm_txt">Evening 6 PM Result Published</string>
+    <string name="home_latest_results_6pm">Evening 6 PM Results</string>
+    <string name="home_8_pm_txt">Night 8 PM Result Published</string>
+    <string name="home_latest_results_8pm">Night 8 PM Results</string>
+    <string name="today_1pm">1 PM Live</string>
+    <string name="today_6pm">6 PM Live</string>
+    <string name="today_8pm">8 PM Live</string>
+    <string name="old_1pm_results">Old 1 PM Results (</string>
+    <string name="old_6pm_results">Old 6 PM Results (</string>
+    <string name="old_8pm_results">Old 8 PM Results (</string>
+    <string name="not_publish">Not Publish Yet...</string>
+    <string name="okay">Okay</string>
+    <string name="reopen">Please reopen the app...</string>
+    <string name="internet_error">Please check your internet...</string>
+    <string name="close">Close</string>
+    <string name="retry">Retry</string>
+    <string name="update_message">Please update the app</string>
+    <string name="update">Update</string>
+    <string name="website">Website</string>
+    <string name="disclaimer_text" translatable="false"><p><b>This is not an official Nagaland Lottery Result app</b>. We are a Dayup Team. We develop this app for easy viewing of Nagaland Lottery Result. At this time this industry is very unorganised. People have some options to view the results but it\'s cluttered. We present Naga Lottery Result app to view current and old lottery results, All data are source from authentic placed. It\'s very convenient to use.</p><p>\n\nIf You have any complaint or suggestion regarding this app please reach us at <a href="mailto:app@dayup.in">app@dayup.in</a> .If you have any suggestion we analyse &amp; if possible we implement in the app and if you have any complaint regarding also contact us how can we fix those issues or other.</p> <p>\n\nThank You Team DayUp</p></string>
+    <string name="refresh_successful">Refresh Successful</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+</resources>

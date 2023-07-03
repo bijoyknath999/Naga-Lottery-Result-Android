@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "711197748584",
+    "project_id": "lottery-75b08",
+    "storage_bucket": "lottery-75b08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711197748584:android:dc4a4b2222c7f47a7dbadd",
+        "android_client_info": {
+          "package_name": "nagalandlottery.result.daily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711197748584-tjd4pc6ntn03kshn0pr6eaii3ea349bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nagalandlottery.result.daily",
+            "certificate_hash": "a37fc124d0514f9bdabc74e990fed383d8700cfc"
+          }
+        },
+        {
+          "client_id": "711197748584-5u88kpvvmvphlaiu9n6acffqc84u9cpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc-KaUNNTgXK62_LQZtkms0lopt08BRr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711197748584-5u88kpvvmvphlaiu9n6acffqc84u9cpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

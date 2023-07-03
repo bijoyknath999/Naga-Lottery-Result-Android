@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.WinnerActivity"
+    android:background="@color/color1"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:id="@+id/winner_toolbar_layout">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/winner_toolbar_title"
+                android:text="Winners List"
+                android:layout_weight="2.7"
+                android:fontFamily="@font/lato_bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:id="@+id/winner_search_btn"
+                android:layout_weight="0.3"
+                app:tint="@color/black"
+                android:src="@drawable/ic_search"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/winner_search_layout"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/winner_search_back"
+                    android:layout_weight="0.3"
+                    app:tint="@color/black"
+                    android:src="@drawable/ic_back"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/winner_search_edit"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="2.4"
+                    android:layout_marginRight="10dp"
+                    android:hint="Search"
+                    android:inputType="text"
+                    android:textColorHint="#FAA59D9D"
+                    android:fontFamily="@font/lato_regular"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:imeOptions="actionSearch"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="0.3"
+                    android:id="@+id/winner_search_clear"
+                    android:src="@drawable/ic_close"
+                    app:tint="@color/black"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/product_search_history_recyclerview"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/winnerRecyclerview"
+            android:layout_above="@id/loadingProgress"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:id="@+id/loadingProgress"
+            app:lottie_rawRes="@raw/loading3"
+            app:lottie_autoPlay="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            app:lottie_loop="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
